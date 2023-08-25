@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+
+  }
+.container {
+    background-color: white;
+    border-radius: 10px;
+}
+  
+
+.bg{
+    background: url(elcarito-MHNjEBeLTgw-unsplash.jpg);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+    opacity: 0.7;
+    filter: brightness(75%);
+}
+.terms-box{
+    max-width: 460px;
+    background-color: rgb(83, 83, 83,0.1);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+.terms-text{
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14;
+    font-weight: 500;
+    color: #111;
+}
+.terms-text::-webkit-scrollbar{
+    width: 2px;
+    background-color: #282828;
+}
+.terms-text::-webkit-scrollbar-thumb{
+    background-color: #f1f1f1;
+}
+.terms-text h2{
+    text-transform: uppercase;
+}
+.terms-text h4{
+    font-size: 13px;
+    text-align: center;
+    padding: 0 40px;
+}
+.terms-box h4 span{
+    color: rgb(245, 68, 68);
+    text-transform: uppercase;
+}
+.buttons{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.btn{
+    height: 50px;
+    width: calc(50% - 6px);
+    border: 0;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s linear;
+    cursor: pointer;
+}
+.red-btn{
+    background-color: rgb(245, 68, 68);
+}
+.gray-btn{
+    background-color: #282828;
+}
+.btn:hover{
+    opacity: .6;
+}
+</style>
+
+<body>
+    <div class="container">
+    <div class="bg"></div>
+    <div class="terms-box">
+        <div class="terms-text">
+            <h2>Terms And Conditions</h2>
+            <p>Last Edit:22/08/2023</p>
+            <p>Greetings User</p>
+            <p><bold style="font-weight: bold;">1. Eligibility:</bold>
+                - You must meet the Institution's admission criteria to be eligible for registration.
+                - You must provide accurate and complete information during the registration process.
+             </p><bold style="font-weight: bold;">2. Registration Process:</bold>
+             - You agree to complete the registration process as outlined by the Institution.
+             - Any fees associated with the registration process must be paid in full and are non-refundable unless stated otherwise in the Institution's refund policy.
+          
+
+            <p><bold style="font-weight: bold;">3. Course Selection:</bold>
+                
+                - You are responsible for selecting your courses in accordance with the Institution's guidelines and degree requirements.
+                - Changes to your course schedule may be subject to approval by the relevant academic department</p>
+
+            <p><bold style="font-weight: bold;">4. Tuition and Fees:</bold>- Tuition and other fees must be paid by the specified due dates.
+                - Failure to pay tuition and fees may result in the suspension of your student status.
+             </p>
+
+            <p><bold style="font-weight: bold;">5. Academic Responsibilities:</bold>
+                - You are expected to attend classes regularly and participate in academic activities.
+                - You must adhere to the Institution's academic policies and honor codes.
+             
+             </p>
+
+            <p><bold style="font-weight: bold;">6. Code of Conduct:</bold>
+                - You must abide by the Institution's code of conduct and policies related to student behavior.
+                - Any violations may result in disciplinary action.
+             </p>
+
+             <p><bold style="font-weight: bold;">7. Privacy and Data Protection:</bold>
+                - The Institution may collect and process personal data in accordance with applicable data protection laws and the Institution's privacy policy.
+             </p>
+
+             <p><bold style="font-weight: bold;">8. Intellectual Property:</bold>
+                - Any intellectual property created by you as a student may be subject to the Institution's policies on intellectual property rights.
+             </p>
+
+             <p>By registering as a student at the Institution, you acknowledge that you have read, understood, and agreed to these Terms and Conditions. Failure to comply with these Terms may result in disciplinary action, including the termination of your student status.
+            </p>
+       
+       <h4>I Agree To The <span> Terms And Conditions</span> And I Read The Privacy Notice</h4>
+       <div class="buttons">
+           <button class="btn red-btn">Accept</button>
+           <button class="btn gray-btn">Decline</button>
+       </div>
+
+            </div>
+    </div>
+    </div>
+</body>
+
+</html>

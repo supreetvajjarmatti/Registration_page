@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Registration</title>
+</head>
+
+ 
+ 
+
+
+<body>
+    <div class="navbar">
+        <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+        <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+        <a href="Loginpage.html"><i class="fa fa-fw fa-user"></i> Login</a>
+      </div>
+    <div class="container">
+
+    <h1 style="text-align: center; color: white;">Registration form</h1>
+    <div class="border">
+    <form action='' method="post">
+        <table align="center">
+
+        <tr><td><label>First Name :</label></td><td><input type="text" name="fname" placeholder="First Name" required></td></tr>
+
+        <tr><td><label>Middle Name :</label></td><td><input type="text" name="mname" placeholder="Middle Name" required></td></tr>
+
+        <tr><td><label>Last Name :</label></td><td><input type="text" name="lname" placeholder="Last Name" required></td></tr>
+
+        <tr><td><label class="gender">Gender: </label></td><td>
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark">Male</span>
+          
+            <label class="gender">
+            <input type="radio" name="radio">
+            <span class="checkmark">Female</span>
+          </label></td></tr>
+        
+
+        <div class="container">
+        <tr><td> <label for="uname">Username :</label></td>
+          <td> <input type="text" placeholder="Enter Username" name="uname" required></td></tr>
+
+        <tr><td>   <label for="psw">Password :</label></td><td><input type="password" placeholder="Enter Password" name="psw" required></td></tr>
+
+        <tr><td><label>Mobile No :</label></td><td><input type="number" name="mno" placeholder="Mobile Number" required></td></tr>
+
+        <tr><td><label>Email :</label></td><td><input type="text" name="email" placeholder="Email" required></td></tr>
+
+        <tr><td><label for="birthday">Birthday :</label></td><td><input type="date" id="birthday" name="birthday"></td></tr>
+        
+        <tr><td><label>Semester :</label></td><td>
+            <select>
+                <option> Sem I</option>
+                <option> Sem II</option>
+                <option> Sem III</option>
+                <option> Sem IV</option>
+                <option> Sem V</option>
+                <option> Sem VI</option>
+                <option> Sem VII</option>
+                <option> Sem VIII</option>
+
+            </select></td></tr>
+
+            <tr><td><label>Department :</label></td><td>
+                <select>
+                    <option> CS </option>
+                    <option> EC </option>
+                    <option> CIV </option>
+                    <option> MECH </option>
+                    <option> EE </option>
+                </select></td></tr>
+                <div class="submit">
+        
+                <tr><td><input type="submit" value="Register" name="submit"></td></tr>
+                </div>
+
+                <tr><td><label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label></td></tr>
+
+                <tr><td> <div class="cancel" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancel</button></td></tr>
+                <tr><td> <span class="psw">Already have an account?&nbsp;<a href="Loginpage.html">Login !</a></span></td></tr>
+                
+                  </div>
+                  
+                
+                
+             </table>
+        </form>
+        
+        </div>
+    </div>
+</body>
+</html>
